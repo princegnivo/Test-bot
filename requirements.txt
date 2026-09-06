@@ -1,0 +1,6 @@
+python-telegram-bot-raw==21.1.1
+websocket-client==1.8.0
+numpy
+pandas
+requests
+urllib3
