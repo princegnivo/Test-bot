@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "Pocket Option SSID Capture",
+  "version": "1.0",
+  "description": "Capture le SSID Pocket Option pendant la navigation et l'envoie au bot local.",
+  "content_scripts": [
+    {
+      "matches": ["*://*.pocketoption.com/*"],
+      "js": ["capture.js"],
+      "run_at": "document_start"
+    }
+  ],
+  "permissions": ["*://*.pocketoption.com/*"]
+}
